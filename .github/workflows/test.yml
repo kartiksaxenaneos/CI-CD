@@ -24,7 +24,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-              file = open("test.txt",a)
+              file = open("test.txt","a")
               file.write("Hello there!")
               file.close() 
 
