@@ -33,9 +33,7 @@ jobs:
           
       - name: running python
         run: |
-          python
-          print("Hello there")
-
+          python test.py
 
       # Runs a set of commands using the runners shell
       #- name: Run a multi-line script
